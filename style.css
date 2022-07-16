@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sacramento', cursive;
+}
+:root{
+    --main-fontfamily:time new romans;
+}
+#section-main{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.73)), url(images/Rectangle\ 1.png); */
+height: 100vh;
+width: 100vw;
+background-image: linear-gradient(to right,rgba(0,0,0,0.62),rgba(0,0,0,0.19)),url(images/Rectangle\ 1.png);
+display: flex;
+justify-content: left;
+align-items:left ;
+margin-bottom: 60px;
+}
+
+#section-main-contenet{
+    margin-top: 150px;
+    margin-left:80px;
+    
+}
+#section-main-contenet >h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--main-fontfamily);
+}
+#section-main-contenet >p{
+    color: white;
+    font-size: 22px;
+}
+.main-btn{
+background-color: #e90ca6;
+padding: 10px 20px;
+color: black;
+font-size: 15px;
+}
+.main-btn:hover{
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0px 8px 50px white  ;
+}
+hr{
+    width: 50%;
+    border: dotted hidden hidden;
+    border-top: 8px dotted gray;
+    
+}
+#donation{
+    margin-top: 80px ;
+}
+.donation-box1{
+display: flex;
+margin-left: 20px;
+padding: 20px;
+}
+.donation-video-content{
+    margin-left: 20px;
+    padding:20px;
+
+}
+
+.donation-video-content h1{
+   font-family: var(--main-fontfamily);
+   font-size: 30px;
+  
+}
+.donation-video-content p{
+    font-size: 22px;
+}
+.donation-img img{
+   height:350px;
+    width: 400px;
+}
+
